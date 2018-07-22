@@ -26,7 +26,7 @@ module.exports.run = async (bot, message, args) => {
     message.guild.member(kickUser).kick(kickReason);
     modLog.send(embed);
 
-    message.channel.send(`Successfully kicked ${kickUser.user.username} for ${kickReason}.`).then(msg => {msg.delete(7500)});
+    message.channel.send(`Successfully kicked ${kickUser.user.username} for ${kickReason}.`).then(msg => msg.delete(7500));
 
 }
 

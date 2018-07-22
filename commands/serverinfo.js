@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Member Count", `There are ${message.guild.memberCount} members in this discord.`)
         .addField("Region", `This server is hosted in ${message.guild.region.toUpperCase()}!`);
 
-    message.channel.send(embed).then(msg => {msg.delete(7500)});
+    message.channel.send(embed).then(msg => msg.delete(7500));
 }
 
 module.exports.help = {

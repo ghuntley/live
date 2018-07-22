@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Joined", user.guild.joinedAt)
         .addField("Account Created", user.user.createdAt);
 
-    message.channel.send(embed).then(msg => {msg.delete(7500)});
+    message.channel.send(embed).then(msg => msg.delete(7500));
 }
 
 module.exports.help = {
