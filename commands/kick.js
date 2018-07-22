@@ -25,8 +25,6 @@ module.exports.run = async (bot, message, args) => {
     modLog.send(embed);
 
     message.channel.send(`ADMIN-LOG: Successfully kicked ${kUser.user.username}#${kUser.user.discriminator} from the server.`);
-
-
 }
 
 module.exports.help = {

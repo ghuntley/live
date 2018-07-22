@@ -24,9 +24,7 @@ module.exports.run = async (bot, message, args) => {
     message.guild.member(banUser).ban(banReason);
     modLog.send(embed);
 
-    message.channel.send(`ADMIN-LOG: Successfully kicked ${kUser.user.username}#${kUser.user.discriminator} from the server.`);
-
-
+    message.channel.send(`ADMIN-LOG: Successfully banned ${kUser.user.username}#${kUser.user.discriminator} from the server.`);
 }
 
 module.exports.help = {
