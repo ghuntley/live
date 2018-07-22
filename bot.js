@@ -23,9 +23,18 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
+bot.on("guildMemberAdd", async (guildMember) => {
+    var role = guildMember.guild.roles.find('name', 'Guest');
+
+    guildMember.addRole(role);
+
+    guildMember.send('`Hey there! Thanks for joining our server. We hope you have a fun time! Invite your friends!`');
+    
+});
+
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is ready to go.`);
-    bot.user.setActivity("with Geoffrey", { type:"PLAYING" }); 
+    bot.user.setActivity("with Geoffrey!", { type:"PLAYING" }); 
 });
 
 bot.on("message", async (message) => {
