@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
     let embed = new Discord.RichEmbed()
         .setColor("#ea3a43")
         .addField("Administrator Commands", "!announce  !clear  !kick  !ban  !postrules")
-        .addField("Community Commands", "!serverinfo  !userinfo  !help");
+        .addField("Community Commands", "!serverinfo  !schedule  !userinfo  !help");
 
     message.channel.send(embed);
 }
