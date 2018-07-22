@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 
 module.exports.run = async (bot, message, args) => {
 
-    message.delete();
-
     let embed = new Discord.RichEmbed()
         .setColor("#f73ba2")
         .addField("Name", message.guild.name)
