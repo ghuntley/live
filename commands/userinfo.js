@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
 
     let embed = new Discord.RichEmbed()
         .setColor("#e8833c")
-        .setThumbnail(message.author.avatarURL)
+        .setThumbnail(user.user.avatarURL)
         .addField("Username", user.user.username)
         .addField("Tag", user.user.discriminator)
         .addField("Status", user.user.presence.status.toUpperCase())
