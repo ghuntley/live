@@ -12,6 +12,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Created", message.guild.createdAt)
         .addField("Joined", message.member.joinedAt)
         .addField("Bans", `There are ${message.guild.fetchBans.length} user(s) banned in this discord.`)
+        .addField("Channels", `There are ${message.guild.channels.size} channels in this discord.`)
         .addField("Member Count", `There are ${message.guild.memberCount} user(s) in this discord.`)
         .addField("Region", `This server is hosted in ${message.guild.region.toUpperCase()}.`);
 
