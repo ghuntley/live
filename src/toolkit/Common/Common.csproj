@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="akavache" Version="6.0.0-alpha0038" />
+    <PackageReference Include="DynamicData" Version="6.4.0.2419" />
     <PackageReference Include="Genesis.AsyncInitializationGuard" Version="2.0.0" />
     <PackageReference Include="Genesis.DisconnectedUtil" Version="2.0.0" />
     <PackageReference Include="Genesis.Ensure" Version="2.0.0" />

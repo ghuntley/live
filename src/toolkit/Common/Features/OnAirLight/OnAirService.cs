@@ -12,6 +12,7 @@ using System.Linq;
 using Q42.HueApi;
 using Q42.HueApi.ColorConverters;
 using Q42.HueApi.ColorConverters.HSB;
+using DynamicData;
 
 namespace Toolbox.Common.Features.OnAirLight
 {
@@ -27,6 +28,12 @@ namespace Toolbox.Common.Features.OnAirLight
 
             _activeProcessesService = activeProcessesService;
             _phillipsHueService = phillipsHueService;
+
+
+            _activeProcessesService.ProcessNames.Connect().Subscribe(x =>
+            {
+                Log.Debug("{Process}",x);
+            });
 
             // note: throwing away subscription reference because this is a single activation singleton (ie. memory leak isn't a concern)
             this.WhenAnyValue(x => x._activeProcessesService.ProcessNames, x => x._activeProcessesService.WindowTitles)
@@ -60,21 +67,21 @@ namespace Toolbox.Common.Features.OnAirLight
                 });
         }
 
-        private bool ProcessesMatch(ReactiveList<string> processes)
+        private bool ProcessesMatch(IObservableList<string> processes)
         {
             if (processes == null) return false;
 
-            return processes.Any(proc => proc.Contains("vMix64"));
+            return processes.Items.Any(proc => proc.Contains("vMix64"));
         }
 
-        private bool WindowTitlesMatch(ReactiveList<string> windowtitles)
+        private bool WindowTitlesMatch(IObservableList<string> windowtitles)
         {
             if (windowtitles == null) return false;
 
-            return windowtitles.Any(proc => proc.Contains("Zoom Participant"));
+            return windowtitles.Items.Any(proc => proc.Contains("New Tab"));
         }
 
-        private async Task ActivateOfficeDoorLight(bool isOnAir, ReactiveList<Light> lights)
+        private async Task ActivateOfficeDoorLight(bool isOnAir, IObservableList<Light> lights)
         {
             var command = new LightCommand();
             if (isOnAir)

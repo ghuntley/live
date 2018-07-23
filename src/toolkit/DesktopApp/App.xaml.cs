@@ -4,6 +4,7 @@ using DesktopApp.Features.OnAirLight;
 using ReactiveUI;
 using Serilog;
 using Serilog.Events;
+using Splat;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -50,8 +51,8 @@ namespace DesktopApp
                 .As<IActiveProcessesService>()
                 .SingleInstance();
 
-            var appKey = string.Empty;
-            var ipAddress = string.Empty;
+            var appKey = "ccrKHarp9CriyKKxIb7MBlBybY6WuHJCI2Ihkm5c";
+            var ipAddress = "10.0.0.18";
 
             builder.Register(c => new PhillipsHueService(appKey, ipAddress, RxApp.MainThreadScheduler))
                 .As<IPhillipsHueService>()
@@ -62,6 +63,9 @@ namespace DesktopApp
                  .SingleInstance();
 
             Container = builder.Build();
+
+            var logger = new DebugLogger();
+            Locator.CurrentMutable.RegisterConstant(logger, typeof(Splat.ILogger));
 
             var test = new DashboardViewModel(Container.Resolve<IOnAirService>());
         }

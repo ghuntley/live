@@ -1,4 +1,5 @@
-﻿using Q42.HueApi;
+﻿using DynamicData;
+using Q42.HueApi;
 using ReactiveUI;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ namespace Toolbox.Common.Features.OnAirLight
 {
     public interface IPhillipsHueService
     {
-        ReactiveList<Light> Lights { get; }
+        IObservableList<Light> Lights { get; }
         Task SendCommandAsync(LightCommand command, IEnumerable<string> targetLights);
     }
 }

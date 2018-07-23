@@ -27,24 +27,13 @@ namespace Tests.Features.OnAirLight
                     .Build();
 
                 // ensure collections are initialized by default
-                sut.ProcessNames.ShouldBeEmpty();
-                sut.WindowTitles.ShouldBeEmpty();
+                sut.ProcessNames.Items.ShouldBeEmpty();
+                sut.WindowTitles.Items.ShouldBeEmpty();
 
                 // service should refresh the collections as per the interval
                 scheduler.AdvanceBy(refreshInterval.Ticks);
-                sut.ProcessNames.ShouldNotBeEmpty();
-                sut.WindowTitles.ShouldNotBeEmpty();
-
-                // wipe the colleciton
-                sut.ProcessNames.Clear();
-                sut.WindowTitles.Clear();
-                sut.ProcessNames.ShouldBeEmpty();
-                sut.WindowTitles.ShouldBeEmpty();
-
-                // prove the collections are refreshed after the interval
-                scheduler.AdvanceBy(refreshInterval.Ticks);
-                sut.ProcessNames.ShouldNotBeEmpty();
-                sut.WindowTitles.ShouldNotBeEmpty();
+                sut.ProcessNames.Items.ShouldNotBeEmpty();
+                sut.WindowTitles.Items.ShouldNotBeEmpty();
             });
         }
     }

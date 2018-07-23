@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reactive.Concurrency;
 using System.Text;
 using System.Threading.Tasks;
+using DynamicData;
 using Genesis.Ensure;
 using ReactiveUI;
 using Toolbox.Common.Features.OnAirLight;
@@ -14,7 +15,8 @@ namespace DesktopApp.Features.OnAirLight
     {
         private IScheduler _scheduler;
         private TimeSpan _refreshInterval;
-
+        private SourceList<string> _processNames = new SourceList<string>();
+        private SourceList<string> _windowTitles = new SourceList<string>();
 
         public ActiveProcessesService(TimeSpan refreshInterval, IScheduler scheduler)
         {
@@ -28,21 +30,23 @@ namespace DesktopApp.Features.OnAirLight
             {
                 var processes = Process.GetProcesses();
 
-                using (ProcessNames.SuppressChangeNotifications())
+                _processNames.Edit(innerList =>
                 {
-                    ProcessNames.Clear();
-                    ProcessNames.AddRange(processes.Select(x => x.ProcessName));
-                }
+                    innerList.Clear();
+                    innerList.AddRange(processes.Select(x => x.ProcessName));
+                });
 
-                using (WindowTitles.SuppressChangeNotifications())
+                _processNames.Edit(innerList =>
                 {
-                    WindowTitles.Clear();
-                    WindowTitles.AddRange(processes.Select(x => x.MainWindowTitle));
-                }
+                    innerList.Clear();
+                    innerList.AddRange(processes.Select(x => x.MainWindowTitle));
+                });
             });
 
         }
-        public ReactiveList<string> ProcessNames { get; private set; } = new ReactiveList<string>();
-        public ReactiveList<string> WindowTitles { get; private set; } = new ReactiveList<string>();
+
+        public IObservableList<string> ProcessNames => _processNames.AsObservableList();
+
+        public IObservableList<string> WindowTitles => _windowTitles.AsObservableList();
     }
 }

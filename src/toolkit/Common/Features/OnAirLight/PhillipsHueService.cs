@@ -10,6 +10,7 @@ using Q42.HueApi.Interfaces;
 using ReactiveUI;
 using Toolbox.Common.Features.State;
 using System.Reactive;
+using DynamicData;
 
 namespace Toolbox.Common.Features.OnAirLight
 {
@@ -17,6 +18,7 @@ namespace Toolbox.Common.Features.OnAirLight
     {
         private IScheduler _scheduler;
         private ILocalHueClient _client;
+        private ISourceList<Light> _lights = new SourceList<Light>();
 
         public PhillipsHueService(string appKey, string ipAddress, IScheduler scheduler)
         {
@@ -30,7 +32,7 @@ namespace Toolbox.Common.Features.OnAirLight
             _scheduler = scheduler;
         }
 
-        public ReactiveList<Light> Lights { get; private set; } = new ReactiveList<Light>();
+        public IObservableList<Light> Lights => _lights.AsObservableList();
 
         public async Task SendCommandAsync(LightCommand command, IEnumerable<string> targetLights)
         {
