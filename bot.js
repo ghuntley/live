@@ -34,7 +34,7 @@ bot.on("guildMemberAdd", async (guildMember) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is ready to go.`);
-    bot.user.setActivity("with Geoffrey!", { type:"PLAYING" }); 
+    bot.user.setActivity("with !help for help", { type:"PLAYING" }); 
 });
 
 bot.on("message", async (message) => {
@@ -49,6 +49,7 @@ bot.on("message", async (message) => {
     let commandfile = bot.commands.get(cmd.slice(botsettings.prefix.length));
     if(commandfile) commandfile.run(bot, message, args);
 
+    
     
 });
 
