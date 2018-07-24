@@ -38,7 +38,7 @@
 - [ ] Whiteboard/Drawing scene button is functional.
 
 - [ ] Ensure keyframe is 2 in streaming settings.
-- [ ] Ensure delay is as low as possible in streaming settings.
+- [ ] Ensure that the network buffer is 5 seconds or lower.
 
 ## go live
 
