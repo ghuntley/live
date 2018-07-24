@@ -16,8 +16,8 @@
 - [ ] Send Master controlpad button is functional.
 - [ ] Send Master is enabled.
 - [ ] Set master output to 0 dB.
-- [ ] Set master gain to 2 dB
-- [ ] Set master automatic gain control on
+- [ ] Set master gain to 18 dB
+- [ ] Set master automatic gain control off
 
 - [ ] Send Background Music controlpad button is functional.
 - [ ] Send Background Music is enabled.
