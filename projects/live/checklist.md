@@ -22,11 +22,11 @@
 - [ ] Send Background Music controlpad button is functional.
 - [ ] Send Background Music is enabled.
 - [ ] Choose music selection.
-- [ ] Set background music input to X dB.
+- [ ] Set background music input to -40 dB.
 - [ ] Verify background music is output to master.
 
 - [ ] Push to talk controlpad button is functional
-- [ ] Set microphone input to x Db.
+- [ ] Set microphone input to -20 Db.
 
 - [ ] Fade to black controlpad button is functional.
 - [ ] Privacy screen controlpad button is functional.
