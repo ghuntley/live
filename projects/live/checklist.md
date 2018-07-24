@@ -12,9 +12,12 @@
 - [ ] Record locally to the laptop and ensure audio is enabled.
 - [ ] Chat is functioning and connected (reload web page if broken)
 
+
 - [ ] Send Master controlpad button is functional.
 - [ ] Send Master is enabled.
-- [ ] Set master output to x dB.
+- [ ] Set master output to 0 dB.
+- [ ] Set master gain to 2 dB
+- [ ] Set master automatic gain control on
 
 - [ ] Send Background Music controlpad button is functional.
 - [ ] Send Background Music is enabled.
