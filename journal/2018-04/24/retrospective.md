@@ -10,6 +10,6 @@
 
 ## Any new tricks or ideas?
 
-- when setting title optimise for ating twitter usernames to maximise changes of reweets.
+- when setting title optimise for ating twitter usernames to maximise chances of reweets.
 - always remember that folks can, do and will clip stuff out of context on twitch
 - Use @code's terminal window and a command line IRC client + twitch IRC gateway. @ https://twitter.com/GeoffreyHuntley/status/1021897606824259585
