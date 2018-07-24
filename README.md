@@ -29,6 +29,6 @@ Anyway, thanks for any support you can offer if you decide to.
 
 # inadvertent disclosure
 
-I have multiple systems in place (multiple-monitors, broadcasting under an isolated operating system account, automated privacy screen switcher software, a physical production controlpad) to reduce the likely hood of accidentally disclosing secrets whilst on the air. That doesn't mean it won't  happen however. 
+I have multiple systems in place (multiple-monitors, broadcasting under an isolated operating system account, automated privacy screen switcher software, a physical production controlpad) to reduce the likely hood of accidentally disclosing secrets whilst on the air. That doesn't mean it cant happen however. 
 
 If you believe there has been inadvertent disclosure please get in [contact with me](mailto:ghuntley@ghuntley.com) immediately. I don't have the resources of [Google](https://www.google.com/about/appsecurity/reward-program/), [Facebook](https://www.facebook.com/whitehat) or [Mozilla](https://www.mozilla.org/en-US/security/bug-bounty/) but at minimumn if you so desire, I'll put your name in the end of show hall of fame credits and send you some swag in the mail. Thank-you.
