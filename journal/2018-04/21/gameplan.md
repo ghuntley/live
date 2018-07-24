@@ -1,8 +1,6 @@
-# The Show
+# -5 - Preshow
 
-## -5 - Preshow
-
-## Webcam
+# Webcam
 
 - [ ] Intro
 
@@ -12,7 +10,7 @@
 > Let's build software together
 > Be interactive, I love live suggestions but please be kind and constructive.
 
-## PIP Desktop
+# PIP Desktop
 
 - [ ] open up ghuntley.com/live
 - [ ] schedule is sunday day and wednesday night
@@ -29,12 +27,12 @@ to get started with open-source
 > started 
 
 
-## Switch to chat
+# Switch to chat
 
 - [ ] Say Howdy to everyone.
 - [ ] Thank the people who helped with getting the word out
 
-## PIP Desktop
+# PIP Desktop
 
 > Over at ghuntley.com/live has a bunch of information
 > about operational safety. 
@@ -52,7 +50,7 @@ https://www.hanselman.com/blog/IsDaddyOnACallABusyLightPresenceIndicatorForLyncF
 > the light automatically changes to red and my children understand
 > what it means as I’ve had the system in place for a couple years now.
 
-## Switch to door
+# Switch to door
 
 > Phillips Hue light strips atached to my door.
 
@@ -60,14 +58,14 @@ https://www.hanselman.com/blog/IsDaddyOnACallABusyLightPresenceIndicatorForLyncF
 - [ ] switch to door webcam
 - [ ] switch to hue control panel app
 
-## Init git repository
+# Init git repository
 
-## ASYNC - Research libaries for hue
+# ASYNC - Research libaries for hue
 
-## Build console app that detects what the active window is
+# Build console app that detects what the active window is
 
-## Change door light to red
+# Change door light to red
 
-## Detect name of current window
+# Detect name of current window
 
-## Do retrospective
+# Do retrospective
