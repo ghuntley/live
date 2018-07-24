@@ -45,9 +45,11 @@
 - [ ] Verify on twitter that the broadcast is live.
 - [ ] Verify on youtube that the broadcast is live.
 - [ ] Verify on twitch that the broadcast is live.
+- [ ] Switch to full screen webcam scene.
 
 ## retrospective
 
 - [ ] Thank people who helped with with today's broadcast.
+- [ ] Write up retrospective whilst on air and PR it in.
 
 # postshow
