@@ -14,7 +14,7 @@
 - [x] Create CI pipeline
 - [x] Create CI PR pipeline
 - [x] Create deployment pipeline
-- [ ] Put in the right username/password tokens for "reactiveuibot"@github
+- [x] Put in the right username/password tokens for "reactiveuibot"@github
 - [x] Is patch version v4.0.[1..3]?
 - [x] Configure branch protection so folks can't push master, must PR
 - [-] Open dodgy PR does it go RED?
