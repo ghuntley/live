@@ -51,10 +51,10 @@ bot.on("message", async (message) => {
 });
 
 
-bot.on('messageDelete', async (message) => {
+bot.on("messageDelete"', async (message) => {
       
       let user = ""
-        if (entry.extra.channel.id === message.channel.id
+      if (entry.extra.channel.id === message.channel.id
           && (entry.target.id === message.author.id)
           && (entry.createdTimestamp > (Date.now() - 5000))
           && (entry.extra.count >= 1)) {
