@@ -62,6 +62,7 @@ bot.on("messageDelete"', async (message) => {
       } else { 
         user = message.author.username
       }
+      console.log(user)
       message.channel.send(`A message was deleted in ${message.channel.name} by ${user}`);
 });
 
