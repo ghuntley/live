@@ -48,8 +48,21 @@ bot.on("message", async (message) => {
 
     let commandfile = bot.commands.get(cmd.slice(botsettings.prefix.length));
     if (commandfile) commandfile.run(bot, message, args);
+});
 
 
+bot.on('messageDelete', async (message) => {
+      
+      let user = ""
+        if (entry.extra.channel.id === message.channel.id
+          && (entry.target.id === message.author.id)
+          && (entry.createdTimestamp > (Date.now() - 5000))
+          && (entry.extra.count >= 1)) {
+        user = entry.executor.username
+      } else { 
+        user = message.author.username
+      }
+      message.channel.send(`A message was deleted in ${message.channel.name} by ${user}`);
 });
 
 bot.login(botsettings.token);
