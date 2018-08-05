@@ -42,12 +42,12 @@
 
 ## go live
 
-- [ ] Switch to pre-show scene.
-- [ ] Start broadcast in vMix.
-- [ ] Verify in restream that the broadcast is live.
-- [ ] Verify on twitter that the broadcast is live.
-- [ ] Verify on youtube that the broadcast is live.
-- [ ] Verify on twitch that the broadcast is live.
+- [x] Switch to pre-show scene.
+- [x] Start broadcast in vMix.
+- [x] Verify in restream that the broadcast is live.
+- [x] Verify on twitter that the broadcast is live.
+- [x] Verify on youtube that the broadcast is live.
+- [x] Verify on twitch that the broadcast is live.
 - [ ] Switch to full screen webcam scene.
 
 ## retrospective
