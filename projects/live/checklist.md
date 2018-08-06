@@ -31,7 +31,7 @@
 - [ ] Set microphone device volume to 90%.
 - [ ] Set microphone noisegate to -70 dB.
 - [ ] Enable microphone noisegate.
-- [ ] Set microphone headphone volume to -20 dB.
+- [ ] Set microphone headphone volume to -infinity dB.
 
 - [ ] Fade to black controlpad button is functional.
 - [ ] Privacy screen controlpad button is functional.
