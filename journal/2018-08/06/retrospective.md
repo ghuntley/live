@@ -14,7 +14,7 @@
 
 ## What didn't go so well?
 
-- Timeslot is too early, not enough audience in Australia yet. 10pm EAST is when viewership ramps up.
+- Timeslot is too early, not enough audience in Australia yet. 10pm AEST is when viewership ramps up.
 - LastPass is a source of inadvertant disclosure, need to disable autocomplete prompts and/or logout before going on air.
 - There's not enough feedback provided that fadetoblack is enabled. Streaming was enabled (with fadetoblack active), f2b should roll end show credits, then fade2back, then wait 5 minutes, then terminate stream/local recording as a script.
 
