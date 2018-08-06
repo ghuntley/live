@@ -2,10 +2,11 @@
 
 - Two streams in two different formats a) "the retrospective of what's been learned and roadshow demo" and b) "let's triage open-source together"
 - Got retweeted by Jeff Fritz and has folks from visual studio twitch channel watching on in.
-- Peak of 14ish streamers.
+- Peak of 14ish viewers.
 - The new USB hubs are working extremely well.
 - Audio levels are getting better, now using a noisegate to remove background ambient noise.
 - Wrapped up before I was tired.
+- Auidence members asked how to get involved in opensource and provided them with suggestions to PR the polly project cause they use polly at work.
 
 ## What didn't go so well?
 
