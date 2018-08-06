@@ -97,3 +97,26 @@ Singleton of DFWP.
 
 
 # Retrospective
+
+## What went well?
+
+- We are done, need to publish into the app store
+- Viewer rescued me from the rabbit hole and provided insights to the edge conversion kit
+
+## What didn’t go so well?
+
+- Didn't google enough before diving in deep
+
+## What have I learned?
+
+- WebExtensions are a new thing (tm) and looking to provide standardized API across browsers for extensions
+- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+- Used by Mozilla and Edge
+- Superset of Chrome's extension API
+- How developer mode is enabled
+- Learned about the edge conversion kit 
+
+- How to debug extenions in edge
+
+
+## What still puzzles me?
