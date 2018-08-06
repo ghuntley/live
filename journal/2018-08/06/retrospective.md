@@ -1,7 +1,7 @@
 # What went well?
 
 - Two streams in two different formats a) "the retrospective of what's been learned and roadshow demo" and b) "let's triage open-source together"
-- Got retweeted by Jeff Fritz and has folks from visual studio twitch channel watching on in.
+- Got retweeted by Jeff Fritz and had folks from visual studio twitch channel watching on in.
 - Peak of 14ish viewers.
 - The new USB hubs are working extremely well.
 - Audio levels are getting better, now using a noisegate to remove background ambient noise.
