@@ -1,6 +1,10 @@
 # What went well?
 
-- Two streams in two different formats a) "the retrospective of what's been learned and roadshow demo" and b) "let's triage open-source together"
+- Two streams in two different formats 
+
+   a) "the retrospective of what's been learned and roadshow demo" - https://twitter.com/GeoffreyHuntley/status/1026410996775047168
+   b) "let's triage open-source together" - https://twitter.com/GeoffreyHuntley/status/1026413749819691009
+   
 - Got retweeted by Jeff Fritz and had folks from visual studio twitch channel watching on in.
 - Peak of 14ish viewers.
 - The new USB hubs are working extremely well.
