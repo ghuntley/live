@@ -22,11 +22,15 @@
 - [ ] Send Background Music controlpad button is functional.
 - [ ] Send Background Music is enabled.
 - [ ] Choose music selection.
-- [ ] Set background music input to -40 dB.
+- [ ] Set background music input to -60 dB.
+- [ ] Set background music input gain to 10 dB.
 - [ ] Verify background music is output to master.
 
 - [ ] Push to talk controlpad button is functional
-- [ ] Set microphone input to -20 Db.
+- [ ] Set microphone input to -13 dB.
+- [ ] Set microphone device volume to 90%.
+- [ ] Set microphone noisegate to -70 dB.
+- [ ] Enable microphone noisegate.
 
 - [ ] Fade to black controlpad button is functional.
 - [ ] Privacy screen controlpad button is functional.
@@ -37,6 +41,7 @@
 - [ ] Desktop PIP scene controlpad button is functional.
 - [ ] Whiteboard/Drawing scene button is functional.
 
+- [ ] Ensure Quality is `Twitch H264 720p 1.5mbps AAC 128kbps`
 - [ ] Ensure keyframe is 2 in streaming settings.
 - [ ] Ensure that the network buffer is 5 seconds or lower.
 
