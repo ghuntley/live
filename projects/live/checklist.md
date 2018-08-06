@@ -1,5 +1,9 @@
 # preshow
 
+## security
+
+- [ ] Log out of LastPass
+
 ## marketing
 
 - [ ] Advertise in discord
