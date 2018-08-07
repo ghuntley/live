@@ -1,5 +1,5 @@
 # What went well?
-
+- Invitation to become twitch affiliate arrived
 - Two streams in two different formats 
 
    a) "the retrospective of what's been learned and roadshow demo" - https://twitter.com/GeoffreyHuntley/status/1026410996775047168
