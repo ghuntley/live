@@ -102,6 +102,8 @@ As an account holder I want to see the details and transaction history of a spec
 
 This exercise is intended to mimic building full systems. The goal is not to implement all of the rules that a full fledged banking system might require but to work through the different technologies – front end, bank end, communications, REST, security, events, and so on.
 
+![](https://raw.githubusercontent.com/ghuntley/live/master/projects/letspair/whiteboard.png)
+
 As can be seen from the technology list in the left column of the picture, this is a great chance to experiment and work with a range of technical options and choices.
 
 More importantly though, we want the system to be built using a micro-services approach so that you think about some architectural concerns.  For example, how granular should those services be? It’s a design choice that you need to make. Similarly where do you draw the boundaries on the services? Do you denormalise data? Where does CQRS fit into the picture? Do you apply Domain Driven Design approaches? How much up front design do you do, or do you just jump in and code all the things? These are all choices that are up to you, much like a customer asking you for your approaches – just be ready to explain why you made those choices.
