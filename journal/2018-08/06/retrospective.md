@@ -27,3 +27,4 @@
 - People studying on Twitch is a thing (tm) - https://twitter.com/girlknowstech/status/1026472768513105925
 - need to get visual studio live share enabled and spend a day familiarizing it.
 - Use carnakeys so folks can see shortcuts used.
+- Make "go-live" button and "end-recording button" a two button press action (ie molly guard, press FN + key) this prevents accidential activation
