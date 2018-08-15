@@ -31,9 +31,9 @@
 - [ ] Verify background music is output to master.
 
 - [ ] Push to talk controlpad button is functional
-- [ ] Set microphone input to -13 dB.
-- [ ] Set microphone device volume to 90%.
-- [ ] Set microphone noisegate to -70 dB.
+- [ ] Set microphone input to -10 dB.
+- [ ] Set microphone device volume to 86%.
+- [ ] Set microphone noisegate to -77 dB.
 - [ ] Enable microphone noisegate.
 - [ ] Set microphone headphone volume to -infinity dB.
 
